@@ -25,8 +25,6 @@ int main(){
     not_equal_result = (char1 != char2);
     cout << "comparision result (equqls); " << equal_result << endl;
     cout << "Comparision result(nog equals)" << not_equal_result << endl;
-	cout << "dit is een test voor GitHub" << endl;
-	cout << "nog een test in Visual Studio" << endl;
 
 
     return 0;
