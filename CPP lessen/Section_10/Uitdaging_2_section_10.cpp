@@ -12,14 +12,20 @@ int main(){
 
     for (size_t i {0}; i < input_user.length(); ++i){
         
-        int spacies = input_user.length() - i;
-        string spacer (spacies, ' ');
-
-       for(size_t x {0}; x <= i; ++x){
-           cout << spacer << input_user.substr(x,1);
+       for(size_t x {0}; x <= input_user.length() - i; ++x){  // spaces in front
+           cout << " ";
        }
 
-       cout << endl;
+       for (size_t y {0}; y <=i; ++y){ // left side 
+           cout << input_user[y];
+       }
+
+       for (size_t c = i  ; c > 0; --c){ //  right side
+           int x = c - 1;
+           cout << input_user[x];
+       }
+
+       cout << endl; // return after every line
 
     }
 
