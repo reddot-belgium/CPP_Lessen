@@ -19,7 +19,7 @@
             },
             "command": "g++",
             "args": [
-                "-g"
+                "-g", "college_137.cpp"
             ]
         }
     ]
