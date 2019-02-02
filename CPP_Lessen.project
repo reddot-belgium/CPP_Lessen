@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="CPP_Lessen" Version="10.0.0" InternalType="">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="CPP lessen">
+    <VirtualDirectory Name="Section_9">
+      <File Name="CPP lessen/Section_9/college_90.cpp"/>
+      <File Name="CPP lessen/Section_9/college_89_2.cpp"/>
+      <File Name="CPP lessen/Section_9/college_89.cpp"/>
+      <File Name="CPP lessen/Section_9/college_85.cpp"/>
+      <File Name="CPP lessen/Section_9/college_84.cpp"/>
+      <File Name="CPP lessen/Section_9/college_83.cpp"/>
+      <File Name="CPP lessen/Section_9/college_81.cpp"/>
+      <File Name="CPP lessen/Section_9/college_80_2.cpp"/>
+      <File Name="CPP lessen/Section_9/college_80.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Section_8">
+      <File Name="CPP lessen/Section_8/college_75.cpp"/>
+      <File Name="CPP lessen/Section_8/college_69.cpp"/>
+      <File Name="CPP lessen/Section_8/college_68.cpp"/>
+      <File Name="CPP lessen/Section_8/college_67.cpp"/>
+      <File Name="CPP lessen/Section_8/college_66_euros.cpp"/>
+      <File Name="CPP lessen/Section_8/college_66.cpp"/>
+      <File Name="CPP lessen/Section_8/college_65.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Section_7">
+      <File Name="CPP lessen/Section_7/Section_Challenge.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Section_6">
+      <File Name="CPP lessen/Section_6/SizeOfVariable.cpp"/>
+      <File Name="CPP lessen/Section_6/SectionChallenge.cpp"/>
+      <File Name="CPP lessen/Section_6/cddBuildInPrimitiveTypes.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Section_4">
+      <File Name="CPP lessen/Section_4/SectionChallenge.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Section_13">
+      <File Name="CPP lessen/Section_13/college_137.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Section_12">
+      <File Name="CPP lessen/Section_12/college_125_2.cpp"/>
+      <File Name="CPP lessen/Section_12/college_125.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Section_10">
+      <File Name="CPP lessen/Section_10/Uitdaging_C_Style_Strings.cpp"/>
+      <File Name="CPP lessen/Section_10/Uitdaging_2_section_10.cpp"/>
+      <File Name="CPP lessen/Section_10/college_98.cpp"/>
+      <File Name="CPP lessen/Section_10/college_96.cpp"/>
+      <File Name="CPP lessen/Section_10/Challenge_section_10.cpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="-std=c++17;-Wall" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="MinGW ( MinGW )" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O0" Required="yes">
+        <LibraryPath Value="."/>
+        <LibraryPath Value="Debug"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./Debug" PauseExecWhenProcTerminates="no" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

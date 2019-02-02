@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="CPP_Lessen" Database="" Version="10.0.0">
+  <Project Name="CPP_Lessen" Path="CPP_Lessen.project" Active="No"/>
+  <Project Name="College_125" Path="College_125/College_125.project" Active="No"/>
+  <Project Name="Sec13_Col_137" Path="Sec13_Col_137/Sec13_Col_137.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="CPP_Lessen" ConfigName="Debug"/>
+      <Project Name="College_125" ConfigName="Debug"/>
+      <Project Name="Sec13_Col_137" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="CPP_Lessen" ConfigName="Debug"/>
+      <Project Name="College_125" ConfigName="Release"/>
+      <Project Name="Sec13_Col_137" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
