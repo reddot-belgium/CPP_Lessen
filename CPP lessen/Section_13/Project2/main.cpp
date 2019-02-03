@@ -29,7 +29,7 @@ Player::Player(std::string name_val)
 }
 
 Player::Player(std::string name_val, int health_val, int xp_val)
-	: Player{name_val,health_val,xp_val} {
+	: Player{name_val,health_val,0} {
 	cout << "Three-args constructor" << endl;
 }
 
