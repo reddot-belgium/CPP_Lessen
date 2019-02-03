@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=ImplementingMethods1
 ConfigurationName      :=Debug
-WorkspacePath          :=C:/Users/frank/Desktop/CPPExamples/Section13
-ProjectPath            :=C:/Users/frank/Desktop/CPPExamples/Section13/ImplementingMethods
+WorkspacePath          :="C:/Users/jelle/OneDrive/Documenten/GitHub/CPP_Lessen/Voorbeelden Leraar/Section-13-OOPClasses-and-Objects-Source-code/Section13"
+ProjectPath            :="C:/Users/jelle/OneDrive/Documenten/GitHub/CPP_Lessen/Voorbeelden Leraar/Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=frank
-Date                   :=31/01/2018
+User                   :=jelle
+Date                   :=03/02/2019
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/MinGW/bin/g++.exe
 SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp $(IntermediateDirectory)/main.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/frank/Desktop/CPPExamples/Section13/ImplementingMethods/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/jelle/OneDrive/Documenten/GitHub/CPP_Lessen/Voorbeelden Leraar/Section-13-OOPClasses-and-Objects-Source-code/Section13/ImplementingMethods/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(DependSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 
